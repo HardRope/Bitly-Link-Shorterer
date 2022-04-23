@@ -1,5 +1,5 @@
 # Bitly url shorterer
-This programm use the [Bitly service](https://bitly.com/) to make a shortlink orreturn counts of clicks after get the short link.
+This programm use the [Bitly service](https://bitly.com/) to make a shortlink or return counts of clicks after get the short link.
 
 ## How to install
 To use the programm you need to create a '.env' file and add your Api-token here.
