@@ -161,3 +161,4 @@ cython_debug/
 replit*
 settings.py
 *toml
+.gitattributes
