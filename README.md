@@ -4,7 +4,7 @@ This programm use the [Bitly service](https://bitly.com/) to make a shortlink or
 ## How to install
 To use the programm you need to create a '.env' file and add your Api-token here.
 
-Format of token in '.env' file looks like: `API-TOKEN = '2baa700828b03db\*\*\*\*\*\*\*\*\*\*fa90c64ad748b69'`
+Format of token in '.env' file looks like: `API-TOKEN = '2baa700828b03db**********fa90c64ad748b69'`
 
 You can get your Api-token after registration at [Bitly](https://bitly.com/). Link to create token: [link](https://app.bitly.com/settings/api/).
 
