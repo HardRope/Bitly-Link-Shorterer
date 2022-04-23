@@ -1,6 +1,23 @@
 # Bitly url shorterer
 This programm use the [Bitly service](https://bitly.com/) to make a shortlink or return counts of clicks after get the short link.
 
+## How it works
+
+To run the programm turn into programm directory and write to the console `main.py link`
+
+Examples:
+
+Input
+```
+main.py https://www.google.com/
+main.py https://bit.ly/38drUFA
+```
+Ouput
+```
+https://bit.ly/38drUFA
+1
+```
+
 ## How to install
 To use the programm you need to create a '.env' file and add your Api-token here.
 
