@@ -60,21 +60,21 @@ def main():
     load_dotenv()
 
     parser = createParser()
-    user_link = parser.parse_args()
+    user_link = parser.parse_args().link
 
     headers = {
         'Authorization': 'Bearer {}'.format(os.environ['API-TOKEN'])
     }
 
     try:
-        requests.get(user_link.link)
+        requests.get(user_link)
     except requests.exceptions.ConnectionError:
         return 'Неверная ссылка'
 
-    if is_bitlink(user_link.link, headers):
-        return count_clicks(user_link.link, headers)
+    if is_bitlink(user_link, headers):
+        return count_clicks(user_link, headers)
     else:
-        return shorten_link(user_link.link, headers)
+        return shorten_link(user_link, headers)
 
 
 if __name__ == '__main__':
