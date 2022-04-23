@@ -1,10 +1,9 @@
-from dotenv import load_dotenv
 import argparse
 import os
-import requests
-import json
-from urllib.parse import urlparse
 
+import requests
+from urllib.parse import urlparse
+from dotenv import load_dotenv
 
 def shorten_link(url, headers):
     payloads = {
